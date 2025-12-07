@@ -1,4 +1,4 @@
-Merge started: Sun Dec  7 03:23:59 2025
+Merge started: Sun Dec  7 03:24:14 2025
 
 Fetching source 1/6: https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jcinema.m3u
 HTTP status: 200
@@ -25,4 +25,4 @@ HTTP status: 200
 Added 4 entries from source.
 
 Total streams added: 876
-Elapsed: 0.5s
+Elapsed: 0.4s
