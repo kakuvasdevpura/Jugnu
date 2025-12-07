@@ -1,28 +1,20 @@
-Merge started: Sun Dec  7 04:45:07 2025
+Merge started: Sun Dec  7 04:49:44 2025
 
-[1/6] Fetching: https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jcinema.m3u
-HTTP status: 200
-Added 41 entries from source.
+[1/4] Fetching: https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u
+HTTP: 200
+Added 68 entries
 
-[2/6] Fetching: https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jtv.m3u
-HTTP status: 200
-Added 708 entries from source.
+[2/4] Fetching: https://raw.githubusercontent.com/abid58b/SonyChannelsPlaylist/refs/heads/main/sony.m3u
+HTTP: 200
+Added 21 entries
 
-[3/6] Fetching: https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u
-HTTP status: 200
-Added 68 entries from source.
+[3/4] Fetching: https://raw.githubusercontent.com/abid58b/SonyLivPlayList/refs/heads/main/sonyliv.m3u
+HTTP: 200
+Added 4 entries
 
-[4/6] Fetching: https://raw.githubusercontent.com/abid58b/SonyChannelsPlaylist/refs/heads/main/sony.m3u
-HTTP status: 200
-Added 21 entries from source.
+[4/4] Fetching: https://raw.githubusercontent.com/abid58b/FanCodePlaylist/refs/heads/main/fancode.m3u
+HTTP: 200
+Added 4 entries
 
-[5/6] Fetching: https://raw.githubusercontent.com/abid58b/SonyLivPlayList/refs/heads/main/sonyliv.m3u
-HTTP status: 200
-Added 4 entries from source.
-
-[6/6] Fetching: https://raw.githubusercontent.com/abid58b/FanCodePlaylist/refs/heads/main/fancode.m3u
-HTTP status: 200
-Added 4 entries from source.
-
-Total streams added: 846
-Elapsed: 1.3s
+Total streams: 97
+Elapsed: 0.22s
