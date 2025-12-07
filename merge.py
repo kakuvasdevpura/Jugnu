@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
-# merge.py - auto-merge with cleakey/token auto-detect & append
-# Updated: jcinema + jtv removed from SOURCES list
+# FINAL merge.py with:
+# - jcinema removed
+# - jtv removed
+# - cleakey auto-detect & auto-append
+# - smart dedupe
+# - raw clone file
+# - GitHub Actions compatible
+# - Custom Windows UA (from Manoj)
 
 import os, time, re, sys
 from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
@@ -19,10 +25,14 @@ OUT_PRIMARY = "allinone.m3u"
 OUT_ALIAS = "kaku.m3u"
 LOG_FILE = "merge_log.txt"
 
-# VLC compatible cookie line (Optional)
+# VLC cookie support (optional)
 WANT_VLC_OPT = False
 
-HEADERS = {"User-Agent": "AutoMergeBot/1.0"}
+# Custom User-Agent (Manoj special)
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36"
+}
+
 TIMEOUT = 20
 RETRIES = 2
 SLEEP_BETWEEN_RETRIES = 1
@@ -31,7 +41,7 @@ SLEEP_BETWEEN_RETRIES = 1
 def safe_fetch(url, headers=None, timeout=TIMEOUT):
     last_exc = None
     hdrs = headers or HEADERS
-    for attempt in range(1, RETRIES+2):
+    for attempt in range(1, RETRIES + 2):
         try:
             return requests.get(url, headers=hdrs, timeout=timeout, allow_redirects=True)
         except Exception as e:
@@ -46,9 +56,9 @@ def find_cleakey_in_text(text):
     if m: return m.group(1)
     m = re.search(r'["\']?(?:cleakey|token)["\']?\s*[:=]\s*["\']([A-Za-z0-9_\-\.]+)["\']', text, flags=re.IGNORECASE)
     if m: return m.group(1)
-    m = re.search(r'^\s*(?:cleakey|token)\s*[:=]\s*([A-Za-z0-9_\-\.]+)\s*$', text, flags=re.MULTILINE|re.IGNORECASE)
+    m = re.search(r'^\s*(?:cleakey|token)\s*[:=]\s*([A-Za-z0-9_\-\.]+)\s*$', text, flags=re.MULTILINE)
     if m: return m.group(1)
-    m = re.search(r'EXT-X-KEY:[^\n]*URI=["\']?([^"\']+)["\']?', text, flags=re.IGNORECASE)
+    m = re.search(r'EXT-X-KEY:[^\n]*URI=["\']?([^"\']+)["\']?', text)
     if m:
         mm = re.search(r'([A-Za-z0-9_\-\.]+)', m.group(1))
         if mm: return mm.group(1)
@@ -71,10 +81,12 @@ def extract_tvgid_or_name(extinf):
     if not extinf:
         return None
     m = re.search(r'tvg-id="([^"]+)"', extinf)
-    if m: return ("id", m.group(1).strip().lower())
+    if m:
+        return ("id", m.group(1).strip().lower())
     if "," in extinf:
-        nm = extinf.split(",",1)[1].strip()
-        if nm: return ("name", nm.lower())
+        nm = extinf.split(",", 1)[1].strip()
+        if nm:
+            return ("name", nm.lower())
     return None
 
 def sanitize_src_name(url):
@@ -83,26 +95,26 @@ def sanitize_src_name(url):
     except:
         return url
 
-def parse_m3u_text_to_lines(text):
-    out = []
-    for raw in text.splitlines():
+def parse_m3u_text_to_lines(t):
+    arr = []
+    for raw in t.splitlines():
         line = raw.strip()
         if not line:
             continue
         if line.upper() == "#EXTM3U":
             continue
-        out.append(line)
-    return out
+        arr.append(line)
+    return arr
 
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     merged = ["#EXTM3U"]
-    raw_concat = ["#EXTM3U"]
+    raw_clone = ["#EXTM3U"]
     seen_keys = set()
 
     log = []
-    total = 0
+    total_added = 0
     start = time.time()
     log.append(f"Merge started: {time.ctime(start)}")
 
@@ -117,22 +129,22 @@ def main():
 
         status = getattr(resp, "status_code", None)
         text = resp.text if resp else ""
+        log.append(f"HTTP {status}")
 
-        log.append(f"HTTP: {status}")
-        raw_concat.append(f"\n#--- SOURCE: {src} ---\n")
-        raw_concat.append(text)
+        raw_clone.append(f"\n#--- SOURCE: {src} ---\n")
+        raw_clone.append(text)
 
         if status != 200 or not text:
-            log.append("Skipping, empty or bad response")
+            log.append("Empty or bad response, skipping")
             continue
 
         token = find_cleakey_in_text(text)
         if token:
-            log.append(f"Found cleakey (masked): {token[:4]}...")
+            log.append(f"Detected cleakey (masked): {token[:4]}...")
 
         lines = parse_m3u_text_to_lines(text)
         if not lines:
-            log.append("Parsed 0 lines")
+            log.append("No valid m3u lines parsed")
             continue
 
         merged.append(f"#--- Group: {sanitize_src_name(src)}")
@@ -141,6 +153,7 @@ def main():
         added = 0
         while i < len(lines):
             line = lines[i]
+
             if line.startswith("#EXTINF"):
                 extinf = line
                 j = i + 1
@@ -161,15 +174,16 @@ def main():
                     i += 1
                     continue
 
-            keyinfo = extract_tvgid_or_name(extinf)
-            if keyinfo:
-                k = ("id", keyinfo[1]) if keyinfo[0]=="id" else ("name", keyinfo[1])
+            # Smart key (tvg-id → name → url)
+            info = extract_tvgid_or_name(extinf)
+            if info:
+                key = ("id", info[1]) if info[0] == "id" else ("name", info[1])
             else:
-                k = ("url", url)
+                key = ("url", url)
 
-            if k in seen_keys:
+            if key in seen_keys:
                 continue
-            seen_keys.add(k)
+            seen_keys.add(key)
 
             final_url = append_query_param(url, "cleakey", token) if token else url
 
@@ -182,25 +196,29 @@ def main():
                 merged.append(final_url)
 
             added += 1
-            total += 1
+            total_added += 1
 
         log.append(f"Added {added} entries")
 
     elapsed = time.time() - start
-    log.append(f"\nTotal streams: {total}")
+    log.append(f"\nTotal merged: {total_added}")
     log.append(f"Elapsed: {elapsed:.2f}s")
 
-    # Output write
     try:
         with open(os.path.join(OUTPUT_DIR, OUT_PRIMARY), "w", encoding="utf-8") as f:
-            f.write("\n".join(merged)+"\n")
+            f.write("\n".join(merged) + "\n")
+
         with open(os.path.join(OUTPUT_DIR, OUT_ALIAS), "w", encoding="utf-8") as f:
-            f.write("\n".join(merged)+"\n")
+            f.write("\n".join(merged) + "\n")
+
         with open(os.path.join(OUTPUT_DIR, "kaku_raw.m3u"), "w", encoding="utf-8") as f:
-            f.write("\n".join(raw_concat)+"\n")
+            f.write("\n".join(raw_clone) + "\n")
+
         with open(os.path.join(OUTPUT_DIR, LOG_FILE), "w", encoding="utf-8") as f:
-            f.write("\n".join(log)+"\n")
+            f.write("\n".join(log) + "\n")
+
         print("Merge completed successfully")
+
     except Exception as e:
         print("Write error:", repr(e))
         sys.exit(2)
