@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
-# FINAL merge.py with:
-# - jcinema removed
-# - jtv removed
-# - cleakey auto-detect & auto-append
-# - smart dedupe
-# - raw clone file
-# - GitHub Actions compatible
-# - Custom Windows UA (from Manoj)
+# FINAL merge.py — inserts User-Agent comment into merged playlist top
 
 import os, time, re, sys
 from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
@@ -204,6 +197,17 @@ def main():
     log.append(f"\nTotal merged: {total_added}")
     log.append(f"Elapsed: {elapsed:.2f}s")
 
+    # --- Insert User-Agent comment just after #EXTM3U header ---
+    ua_comment = f"# User-Agent: {HEADERS.get('User-Agent','')}"
+    if merged and merged[0].upper().strip() == "#EXTM3U":
+        # avoid duplicate UA line if already present
+        if len(merged) < 2 or not merged[1].startswith("# User-Agent:"):
+            merged.insert(1, ua_comment)
+    else:
+        # unexpected, ensure header + UA
+        merged.insert(0, "#EXTM3U")
+        merged.insert(1, ua_comment)
+
     try:
         with open(os.path.join(OUTPUT_DIR, OUT_PRIMARY), "w", encoding="utf-8") as f:
             f.write("\n".join(merged) + "\n")
@@ -223,5 +227,5 @@ def main():
         print("Write error:", repr(e))
         sys.exit(2)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
