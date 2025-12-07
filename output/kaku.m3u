@@ -266,6 +266,15 @@ https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1765143
 #EXTINF:-1 tvg-id="1000009275" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Six_HD.png", Sony Sports Ten 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdnea=exp=1765143017~acl=/*~id=59953080873794367679036812333961~hmac=28e293d293755a35704f374a20c7415d54ab8cdb48b18b6104cb75a125ef2447
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138628_5786_SWR_MIE_FC-Web.jpg" group-title="Fancode-Cricket", MI Emirates vs Sharjah Warriorz (DP World ILT20 2025-26)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://in-mc-fdlive.fancode.com/mumbai/138628_english_hls_dfde41b2f42604_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138320_5771_KNY_JKB_FC-Web_1764576118859.jpg" group-title="Fancode-Cricket", Karnali Yaks vs Janakpur Bolts (Nepal Premier League, 2025)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://in-mc-fdlive.fancode.com/mumbai/138320_english_hls_ec8e70561792251_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/OMAN-vs-Qatar-web.jpg" group-title="Fancode-Cricket", Oman Women vs Qatar Women (Oman Women's T20I Triangular Series, 2025)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://fancode-dlt-adns.airteledge.in/mum-airtel-origin/138710_english_hls_98d37671be33223_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Nedbank-Golf-Challenge_2025_Old_match-cards.jpg" group-title="Fancode-Golf", Day 4 vs Sun City, South Africa (Nedbank Golf Challenge in honour of Gary Player)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://in-mc-fdlive.fancode.com/mumbai/138675_english_hls_bbaab4695792995_1ta-di_h264/index.m3u8
