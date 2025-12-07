@@ -2,24 +2,28 @@ name: Auto Merge Playlist
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/15 * * * *"   # every 15 minutes
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
+          python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
       - name: Run merge script
         run: python merge.py
@@ -28,10 +32,17 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add output/kaku.m3u
+          git add output/allinone.m3u output/kaku.m3u output/merge_log.txt || true
           git commit -m "Auto update playlist" || echo "No changes to commit"
 
-      - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push changes (fetch + rebase then push)
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          echo "Branch: $BRANCH"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git fetch origin $BRANCH --depth=1 || true
+          set +e
+          git rebase origin/$BRANCH || git merge --no-edit origin/$BRANCH || true
+          set -e
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:$BRANCH || true
