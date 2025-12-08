@@ -1,5 +1,4 @@
-# sources.txt - list of playlist sources (one per line)
-https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u
-https://raw.githubusercontent.com/abid58b/SonyChannelsPlaylist/refs/heads/main/sony.m3u
-https://raw.githubusercontent.com/abid58b/SonyLivPlayList/refs/heads/main/sonyliv.m3u
-https://raw.githubusercontent.com/abid58b/FanCodePlaylist/refs/heads/main/fancode.m3u￼Enter
+https://raw.githubusercontent.com/alex8875/m3u/main/z5.m3u
+https://raw.githubusercontent.com/abid58b/SonyChannelsPlaylist/main/sony.m3u
+https://raw.githubusercontent.com/abid58b/SonyLivPlayList/main/sonyliv.m3u
+https://raw.githubusercontent.com/abid58b/FanCodePlaylist/main/fancode.m3u
