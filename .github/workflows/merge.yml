@@ -5,12 +5,19 @@ on:
     - cron: "*/15 * * * *"   # every 15 minutes
   workflow_dispatch:
 
+concurrency:
+  group: auto-merge-playlist
+  cancel-in-progress: true
+
+permissions:
+  contents: write  # allow the GITHUB_TOKEN to push commits
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - name: Checkout repo (with write access)
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: true
@@ -20,29 +27,48 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install requests; fi
 
       - name: Run merge script
-        run: python merge.py
+        id: run_merge
+        run: |
+          python merge.py
 
-      - name: Commit merged playlist
+      - name: Show git status (debug)
+        run: git status --porcelain && git --no-pager log -n 3 --pretty=oneline || true
+
+      - name: Commit kaku playlist (only if changed)
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add output/allinone.m3u output/kaku.m3u output/merge_log.txt || true
-          git commit -m "Auto update playlist" || echo "No changes to commit"
+          # Stage only kaku.m3u (do not stage allinone)
+          git add output/kaku.m3u || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit for kaku.m3u"
+          else
+            git commit -m "Auto update kaku.m3u by workflow"
+          fi
 
-      - name: Push changes (fetch + rebase then push)
+      - name: Push changes (safe push)
         env:
           BRANCH: ${{ github.ref_name }}
         run: |
-          echo "Branch: $BRANCH"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git fetch origin $BRANCH --depth=1 || true
-          set +e
-          git rebase origin/$BRANCH || git merge --no-edit origin/$BRANCH || true
-          set -e
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:$BRANCH || true
+          # Only attempt to push if there are commits to push
+          if git rev-parse --verify --quiet HEAD >/dev/null 2>&1; then
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            git fetch origin $BRANCH --depth=1 || true
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:$BRANCH || echo "Push failed or nothing to push"
+          else
+            echo "No local commits to push"
+          fi
