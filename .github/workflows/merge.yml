@@ -1,74 +1,49 @@
-name: Auto Merge Playlist
+name: Auto Update Kaku Playlist
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # every 15 minutes
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
-concurrency:
-  group: auto-merge-playlist
-  cancel-in-progress: true
-
 permissions:
-  contents: write  # allow the GITHUB_TOKEN to push commits
+  contents: write
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo (with write access)
+      - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
-
-      - name: Cache pip
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
+          python-version: "3.x"
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install requests; fi
+          pip install requests
 
-      - name: Run merge script
-        id: run_merge
-        run: |
-          python merge.py
+      - name: Run merge.py
+        run: python merge.py
 
-      - name: Show git status (debug)
-        run: git status --porcelain && git --no-pager log -n 3 --pretty=oneline || true
-
-      - name: Commit kaku playlist (only if changed)
+      - name: Commit ONLY kaku.m3u
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # Stage only kaku.m3u (do not stage allinone)
           git add output/kaku.m3u || true
           if git diff --staged --quiet; then
-            echo "No changes to commit for kaku.m3u"
+            echo "No changes"
           else
-            git commit -m "Auto update kaku.m3u by workflow"
+            git commit -m "Auto update kaku.m3u"
           fi
 
-      - name: Push changes (safe push)
+      - name: Push changes
         env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
           BRANCH: ${{ github.ref_name }}
         run: |
-          # Only attempt to push if there are commits to push
-          if git rev-parse --verify --quiet HEAD >/dev/null 2>&1; then
-            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-            git fetch origin $BRANCH --depth=1 || true
-            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:$BRANCH || echo "Push failed or nothing to push"
-          else
-            echo "No local commits to push"
-          fi
+          git push https://x-access-token:${TOKEN}@github.com/${REPO} HEAD:${BRANCH} || true
