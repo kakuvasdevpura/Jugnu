@@ -266,3 +266,9 @@ https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1765227
 #EXTINF:-1 tvg-id="1000009275" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Six_HD.png" group-title="sony", Sony Sports Ten 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdnea=exp=1765227015~acl=/*~id=67914198534957323972326584747900~hmac=4d17438bd4188a4683f1f60d368fbe1a4ec4e350638ff0433a03a62b2ab8028e
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012941/1767503753535728_UnitedCup26_Poland_vs_Netherlands_4jan_landscape_thumb.jpg" group-title="sonyliv", Poland vs Netherlands - 7 Jan 2026 [ENG] - United Cup 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1767784272~acl=/*~id=70860071002333944130395576115880~hmac=c89bfd25387f75bfdbffe17430c3fbf2e3ef8a7dc3521b02dd6b862f5255ff6b
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012758/1766836424934385_SuperSmash2526_womens_Wellington-Blaze-vs-Central-Hinds_27dec_landscape_thumb.jpg" group-title="sonyliv", Wellington Blaze vs Central Hinds- 7 Jan 2026 [ENG] - Super Smash 2025/26 Women's
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1767784272~acl=/*~id=70860071002333944130395576115880~hmac=c89bfd25387f75bfdbffe17430c3fbf2e3ef8a7dc3521b02dd6b862f5255ff6b
