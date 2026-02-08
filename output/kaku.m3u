@@ -266,3 +266,6 @@ https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1770550
 #EXTINF:-1 tvg-id="1000009275" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Six_HD.png" group-title="sony", Sony Sports Ten 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdnea=exp=1770550959~acl=/*~id=98832161132618158081913507467142~hmac=a699c353c185c86adf4a8791c79a552a7ca9c939f79c288d10df4daf4057a9e1
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014812/1770116887759170_DPworld_tour_Qatar_Masters_Day4_3feb_landscape_thumb.jpg" group-title="sonyliv", Qatar Masters Day 4 - 8 Feb 2026 [ENG] - DP World Tour
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1770586117~acl=/*~id=25296706862250106747397264440120~hmac=f997fa743ea2960ddf096b8e1883be7545c08584f15049c1714e19f7941af717
