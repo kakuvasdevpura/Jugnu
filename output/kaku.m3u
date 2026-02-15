@@ -62,3 +62,6 @@ https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdntl=exp=1771187
 #EXTINF:-1 tvg-id="1000009275" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Six_HD.png" group-title="sony", Sony Sports Ten 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdntl=exp=1771187223~acl=%2f*~id=aff430b5-dfb3-45c1-bf78-8b51c865ccb4~data=hdntl~hmac=c62b2727081a81958b243c497ab48dcc2be1f7004be45444b3a5cea6a6cb5cbb
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014867/1770189511276737_FA_26_RD4_Birmingham-City-vs-Leeds-United_Landscape_thumb.jpg" group-title="sonyliv", Birmingham City vs Leeds United - Round 4 - 15 Feb 2026 [ENG] - The Emirates FA Cup 2025-26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771198398~acl=/*~id=67768392119102315896066692699866~hmac=283f45f5bf45a2b353ee612ac0837fb3a6588c2acd31147852c9d78ed0d95bc8
