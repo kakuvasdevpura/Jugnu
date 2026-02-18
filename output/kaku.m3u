@@ -62,3 +62,6 @@ https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdntl=exp=1771447
 #EXTINF:-1 tvg-id="1000009275" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Six_HD.png" group-title="sony", Sony Sports Ten 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdntl=exp=1771447143~acl=%2f*~id=be019449-a16f-4902-8e2f-f0f4ce96c8f9~data=hdntl~hmac=2c1cff67ad3b0d44ba3a756e52457b4dfe72ea937a92ef6adb54d5dbf239590a
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015238/1771175858085856_AsiaCup_RisingStar_Womens2026_Sri_Lanka_A_vs_Thailand_15feb_eng_Landscape_thumb.jpg" group-title="sonyliv", Sri Lanka A Women vs Thailand Women - 18 Feb 2026 [ENG] - ACC Women’s Rising Stars 2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771443441~acl=/*~id=29149181972322049739474506753514~hmac=a4d46e1464d1cef5233ebf7257e32bdeca7e8a6fa970a1bae77bb521c992f9d5
