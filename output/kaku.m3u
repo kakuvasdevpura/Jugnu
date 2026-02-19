@@ -62,3 +62,6 @@ https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdntl=exp=1771512
 #EXTINF:-1 tvg-id="1000009275" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Six_HD.png" group-title="sony", Sony Sports Ten 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdntl=exp=1771512124~acl=%2f*~id=77f99692-4c5a-4be1-91da-df9117b4b561~data=hdntl~hmac=02e8f223d55d36238d9abb216bc6d83fbc1ede4e08107a93096d6e07e9fa4c3c
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015364/1771401586595586_DP_World_Tour_Magical_Kenya_Open_Day1_landscape_thumb.jpg" group-title="sonyliv", Magical Kenya Open - Day 1 - 19 Feb 2026 [ENG] - DP World Tour
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://sonydaimenew.akamaized.net/hls/live/20000092/DAI03MSL5-V3/std_lrh-800300010.m3u8?hdnea=exp=1771539805~acl=/*~id=62402643396712074697499865831133~hmac=b99c270a60a80f38785242e8b6ec1024fcbdaf3dc562741f7e1c3dfd65df4b59
