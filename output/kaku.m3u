@@ -1,76 +1,76 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="1000009246" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/4_244.png" group-title="sony", SET HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009248" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/33_247.png" group-title="sony", Sony SAB HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011749/SABHD/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2011749/SABHD/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009259" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/36_260.png" group-title="sony", Sony Marathi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009273" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/6_257.png" group-title="sony", Sony Pal
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011741/SonyPalSD/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2011741/SonyPalSD/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009255" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/9_255.png" group-title="sony", Sony Aath
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000001971" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/12_259.png" group-title="sony", Sony Yay
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009247" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/35_249.png" group-title="sony", Sony MAX HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009249" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/1_248.png" group-title="sony", Sony MAX
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011745/SonyMaxSD/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2011745/SonyMaxSD/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009253" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/2_250.png" group-title="sony", Sony MAX 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011908/MAX2/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2011908/MAX2/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000044878" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/10_258.png" group-title="sony", Sony WAH
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009258" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/34_252.png" group-title="sony", Sony PIX HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009276" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/25_276.png" group-title="sony", Sony Sports Ten 3 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009280" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/20_262.png" group-title="sony", Sony Sports Ten 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011739/TEN1SD/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2011739/TEN1SD/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009279" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/22_261.png" group-title="sony", Sony Sports Ten 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020590/TEN2SD/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2020590/TEN2SD/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009283" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/24_274.png" group-title="sony", Sony Sports Ten 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020592/TEN3SD/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2020592/TEN3SD/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009284" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/38_275.png" group-title="sony", Sony Sports Ten 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020437/ten4sd/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2020437/ten4sd/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009265" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/18_265.png" group-title="sony", Sony Sports Ten 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020594/SONYSIXSD/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2020594/SONYSIXSD/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009266" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/21_266.png" group-title="sony", Sony Sports Ten 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009267" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/23_267.png" group-title="sony", Sony Sports Ten 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009274" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/39_21000009276.png" group-title="sony", Sony Sports Ten 4 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-id="1000009275" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Six_HD.png" group-title="sony", Sony Sports Ten 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdntl=exp=1771577106~acl=%2f*~id=1e0b4bfe-4656-4400-b1f0-d7575b027984~data=hdntl~hmac=2025ea55ac6a4575e5cd7a1352ffa51f713a9c4481f7762428b7028638269b83
+https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdntl=exp=1771642084~acl=%2f*~id=ccb1e7b5-bcb4-4384-a067-01c01a7d3647~data=hdntl~hmac=55f807de6592ec6ed2310c5990f844da11dbf8a6791bb7ab83295ba73fe408bf
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015423/1771495274000232_ACC_BANvsPAK_SF_19feb_live_landscape_thumb.jpg" group-title="sonyliv", Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [ENG] - ACC Women’s Rising Stars 2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771619262~acl=/*~id=79685268604325538231826784285578~hmac=d3c6231e1885f3ad3f3c7b964f0356429137652f259130e995c6c748d93b4c63
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771621684~acl=/*~id=77136496802786839187821944845679~hmac=383657d113564b7af4ccf9186e602c8bc608cffdcaa90bb356082233fedb55c5
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015423/1771495274000232_ACC_BANvsPAK_SF_19feb_live_landscape_thumb.jpg" group-title="sonyliv", Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [HIN] - ACC Women’s Rising Stars 2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771619262~acl=/*~id=79685268604325538231826784285578~hmac=d3c6231e1885f3ad3f3c7b964f0356429137652f259130e995c6c748d93b4c63
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771621684~acl=/*~id=77136496802786839187821944845679~hmac=383657d113564b7af4ccf9186e602c8bc608cffdcaa90bb356082233fedb55c5
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015423/1771495274000232_ACC_BANvsPAK_SF_19feb_live_landscape_thumb.jpg" group-title="sonyliv", Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [TAM] - ACC Women’s Rising Stars 2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771619262~acl=/*~id=79685268604325538231826784285578~hmac=d3c6231e1885f3ad3f3c7b964f0356429137652f259130e995c6c748d93b4c63
+https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771621684~acl=/*~id=77136496802786839187821944845679~hmac=383657d113564b7af4ccf9186e602c8bc608cffdcaa90bb356082233fedb55c5
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015423/1771495274000232_ACC_BANvsPAK_SF_19feb_live_landscape_thumb.jpg" group-title="sonyliv", Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [TEL] - ACC Women’s Rising Stars 2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771619262~acl=/*~id=79685268604325538231826784285578~hmac=d3c6231e1885f3ad3f3c7b964f0356429137652f259130e995c6c748d93b4c63
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771621684~acl=/*~id=77136496802786839187821944845679~hmac=383657d113564b7af4ccf9186e602c8bc608cffdcaa90bb356082233fedb55c5
