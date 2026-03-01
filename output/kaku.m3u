@@ -62,9 +62,6 @@ https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdntl=exp=1772422
 #EXTINF:-1 tvg-id="1000009275" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Six_HD.png" group-title="sony", Sony Sports Ten 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdntl=exp=1772422208~acl=%2f*~id=c749e4de-4ddc-42a6-8dfa-d85795fc13c0~data=hdntl~hmac=f6563c1569779deee5946acd3922f0c421841eda79e8888edd588d7a304e1ad0
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015686/1772263685247596_BLIGA_26_MD24_VfB-Stuttgart-vs-VfL-Wolfsburg_landscape_thumb.jpg" group-title="sonyliv", VfB Stuttgart vs VfL Wolfsburg - MD 24 - 1 Mar 2026 [ENG] - Bundesliga 2025-26
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772424680~acl=/*~id=97816324186579140375476315740892~hmac=a03d071854eeb71c2c0ecab56f2f0e302fbf5967158cf50b66b99eb8049b4790
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015686/1772263891150596_BLIGA_26_MD24_Eintracht-Frankfurt-vs-SC-Freiburg_landscape_thumb.jpg" group-title="sonyliv", Eintracht Frankfurt vs SC Freiburg - MD 24 - 1 Mar 2026 [ENG] - Bundesliga 2025-26
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772424680~acl=/*~id=97816324186579140375476315740892~hmac=a03d071854eeb71c2c0ecab56f2f0e302fbf5967158cf50b66b99eb8049b4790
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772426503~acl=/*~id=06159958170493247685756451991799~hmac=e13893b78aa071b41975e6c1236047867d66cebf7e2989514aba2937ba67f5da
