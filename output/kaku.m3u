@@ -62,3 +62,6 @@ https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdntl=exp=1772869
 #EXTINF:-1 tvg-id="1000009275" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Six_HD.png" group-title="sony", Sony Sports Ten 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdntl=exp=1772869294~acl=%2f*~id=32ea850d-fc93-4c9c-b1b2-5b0afc3db949~data=hdntl~hmac=55a6f91501806b8cfdd362afcb7a3efad500a303d8017a8f0e96264a7790438f
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015685/1772098923421151_BLIGA_26_MD25_Bayern-Munich-vs-Borussia-Mgladbach_landscape_thumb.jpg" group-title="sonyliv", Bayern Munich vs Borussia M'gladbach - MD 25 - 7 Mar 2026 [ENG] - Bundesliga 2025-26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772866901~acl=/*~id=46429820737108432416212742898300~hmac=8069d4796810a6fb8a7f8478e9a209ad3d11dfea419fe48cd1ff7dd0978c60f6
