@@ -62,3 +62,6 @@ https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdntl=exp=1772790
 #EXTINF:-1 tvg-id="1000009275" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Six_HD.png" group-title="sony", Sony Sports Ten 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdntl=exp=1772790484~acl=%2f*~id=eca3a1cf-b192-4f1f-81b7-29c54357a33d~data=hdntl~hmac=8acfcb8b8f5240f72a6331c9421b38ea7baf241cf2465ca5b6ee5086e0fcb966
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015766/177261405160412_DP_World_Day2_Joburg-Open_landscape_thumb.jpg" group-title="sonyliv", Joburg Open Day 2 - 6 Mar 2026 [ENG] - DP World Tour
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772835397~acl=/*~id=81129965318413950355671570785650~hmac=39338441cd462c13cec7340a35fd67331c5ec97a2224aa023ca94e9eaa168f7c
