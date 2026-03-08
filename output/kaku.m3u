@@ -1,79 +1,76 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="1000009246" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/4_244.png" group-title="sony", SET HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009248" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/33_247.png" group-title="sony", Sony SAB HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011749/SABHD/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2011749/SABHD/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009259" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/36_260.png" group-title="sony", Sony Marathi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009273" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/6_257.png" group-title="sony", Sony Pal
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011741/SonyPalSD/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2011741/SonyPalSD/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009255" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/9_255.png" group-title="sony", Sony Aath
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000001971" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/12_259.png" group-title="sony", Sony Yay
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009247" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/35_249.png" group-title="sony", Sony MAX HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009249" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/1_248.png" group-title="sony", Sony MAX
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011745/SonyMaxSD/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2011745/SonyMaxSD/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009253" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/2_250.png" group-title="sony", Sony MAX 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011908/MAX2/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2011908/MAX2/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000044878" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/10_258.png" group-title="sony", Sony WAH
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009258" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/34_252.png" group-title="sony", Sony PIX HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009276" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/25_276.png" group-title="sony", Sony Sports Ten 3 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009280" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/20_262.png" group-title="sony", Sony Sports Ten 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011739/TEN1SD/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2011739/TEN1SD/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009279" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/22_261.png" group-title="sony", Sony Sports Ten 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020590/TEN2SD/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2020590/TEN2SD/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009283" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/24_274.png" group-title="sony", Sony Sports Ten 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020592/TEN3SD/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2020592/TEN3SD/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009284" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/38_275.png" group-title="sony", Sony Sports Ten 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020437/ten4sd/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2020437/ten4sd/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009265" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/18_265.png" group-title="sony", Sony Sports Ten 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020594/SONYSIXSD/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2020594/SONYSIXSD/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009266" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/21_266.png" group-title="sony", Sony Sports Ten 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009267" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/23_267.png" group-title="sony", Sony Sports Ten 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009274" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/39_21000009276.png" group-title="sony", Sony Sports Ten 4 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-id="1000009275" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Six_HD.png" group-title="sony", Sony Sports Ten 5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdntl=exp=1772934243~acl=%2f*~id=9a832a7d-4d36-4df4-9303-7df6ca9fa31f~data=hdntl~hmac=c87f1661f9b10dd0fe0290858a9b74fa859af1b7ba159cc08bee08e89363d9e5
+https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdntl=exp=1772955907~acl=%2f*~id=c4a06f0e-7f26-40bf-a6c1-ad1a799d9019~data=hdntl~hmac=5a7ede844167e035a35629ca33c395d6c6a0027f313999bd51156fb3f4a9eccf
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015889/1772861697625769_UFC326_Holloway_vs_Oliveira_4mar_eng_landscape_thumb.jpg" group-title="sonyliv", UFC 326 - Holloway vs Oliveira 2  - 8 Mar 2026 [ENG] - UFC 326 - Holloway vs Oliveira 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1772975300~acl=/*~id=46624096909124664461616799414587~hmac=f1bcead66d25f8cd723323fc0ad0141aaec9d6d7cbca99b50ebfd13b1bde370c
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1772983789~acl=/*~id=17908058635744584817211073463476~hmac=f18a2e98d3a4dedbd6b10d6017eb3c0b6cdabc84e73093ed97cb88be031d54f0
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015889/1772861697625769_UFC326_Holloway_vs_Oliveira_4mar_eng_landscape_thumb.jpg" group-title="sonyliv", UFC 326 - Holloway vs Oliveira 2  - 8 Mar 2026 [HIN] - UFC 326 - Holloway vs Oliveira 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1772975300~acl=/*~id=46624096909124664461616799414587~hmac=f1bcead66d25f8cd723323fc0ad0141aaec9d6d7cbca99b50ebfd13b1bde370c
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1772983789~acl=/*~id=17908058635744584817211073463476~hmac=f18a2e98d3a4dedbd6b10d6017eb3c0b6cdabc84e73093ed97cb88be031d54f0
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015889/1772861697625769_UFC326_Holloway_vs_Oliveira_4mar_eng_landscape_thumb.jpg" group-title="sonyliv", UFC 326 - Holloway vs Oliveira 2  - 8 Mar 2026 [TAM] - UFC 326 - Holloway vs Oliveira 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1772975300~acl=/*~id=46624096909124664461616799414587~hmac=f1bcead66d25f8cd723323fc0ad0141aaec9d6d7cbca99b50ebfd13b1bde370c
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1772983789~acl=/*~id=17908058635744584817211073463476~hmac=f18a2e98d3a4dedbd6b10d6017eb3c0b6cdabc84e73093ed97cb88be031d54f0
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015889/1772861697625769_UFC326_Holloway_vs_Oliveira_4mar_eng_landscape_thumb.jpg" group-title="sonyliv", UFC 326 - Holloway vs Oliveira 2  - 8 Mar 2026 [TEL] - UFC 326 - Holloway vs Oliveira 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1772975300~acl=/*~id=46624096909124664461616799414587~hmac=f1bcead66d25f8cd723323fc0ad0141aaec9d6d7cbca99b50ebfd13b1bde370c
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015888/1772853133611414_NZw_vs_ZIMw_2ODI_landscape_thumb.jpg" group-title="sonyliv", 2nd ODI - 8 Mar 2026 [ENG] - Zimbabwe Women's Tour of New Zealand 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1772975300~acl=/*~id=46624096909124664461616799414587~hmac=f1bcead66d25f8cd723323fc0ad0141aaec9d6d7cbca99b50ebfd13b1bde370c
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1772983789~acl=/*~id=17908058635744584817211073463476~hmac=f18a2e98d3a4dedbd6b10d6017eb3c0b6cdabc84e73093ed97cb88be031d54f0
